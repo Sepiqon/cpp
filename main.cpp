@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 using namespace std;
 
 template <typename I>
@@ -22,20 +23,18 @@ int main()
 
     unsigned short c = 1234;
 
-    // zera usuwają bit
+    // zera usuwają bajt
     c &= 0x00FF;
-    // liczba ustawia bit
+    // liczba ustawia bajt
     c |= 0x0300;
 
-    // zera usuwają bit
+    // zera usuwają bajt
     c &= 0x00FF;
-    // liczba ustawia bit
+    // liczba ustawia bajt
     c |= (0x05 << 8) | 0;
 
-    cout << 19 << " Innaczej: " << hex << 19 << endl;
-    cout << "CZESC MASZ MNIE WIDZIEC" << endl;
+    cout << 1099 << " Innaczej: " << n2hexstr(b1) << endl;
     unsigned int kk = 64001;
-    string i = n2hexstr(kk, 4);
     // const int i = 0;
     // i = 1;
 }
