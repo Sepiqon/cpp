@@ -1,0 +1,11 @@
+{
+    "ngschematics.componentTypes": [],
+    "background.styles": [
+        {},
+        {},
+        {}
+    ],
+    "files.associations": {
+        "iostream": "cpp"
+    }
+}
