@@ -34,7 +34,7 @@ int main()
     c |= (0x05 << 8) | 0;
 
     cout << 1099 << " Innaczej: " << n2hexstr(b1) << endl;
-    unsigned int kk = 64001;
+    unsigned int kk = 64002;
     // const int i = 0;
     // i = 1;
 }
