@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include "../stoper/stoper.c"
-char power2(unsigned int base, unsigned int expression)
-{
+char power2(unsigned int base, unsigned int expression) {
     char e1 = 0;
     if (expression)
     {
@@ -23,10 +22,8 @@ char power2(unsigned int base, unsigned int expression)
     }
     return temp;
 }
-void powerMain()
-{
+void powerMain() {
     struct Stoper stoper;
-
     int p = 0;
     printf("Podaj liczbe razy: ");
     scanf("%d", &p);
@@ -41,8 +38,8 @@ void powerMain()
         stoperStart(&stoper);
         // stuff
         char t1 = power2(b, e);
-        // stoper stop
         int time = stoperStop(&stoper);
+        char t2 = 76512375;
 
         printf("Cyfra jednosci wyniku: %d (wykonano w %d uS)\n", t1, time);
     }
