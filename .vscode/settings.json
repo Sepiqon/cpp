@@ -6,6 +6,21 @@
         {}
     ],
     "files.associations": {
-        "iostream": "cpp"
-    }
+        "iostream": "cpp",
+        "string_view": "cpp",
+        "random": "cpp",
+        "functional": "cpp",
+        "iosfwd": "cpp",
+        "limits": "cpp",
+        "streambuf": "cpp",
+        "*.tcc": "cpp",
+        "compare": "c",
+        "stdio.h": "c",
+        "cc_array.h": "c",
+        "string.h": "c",
+        "time.h": "c",
+        "crtdefs.h": "c",
+        "corecrt.h": "c"
+    },
+    "cmake.sourceDirectory": "${workspaceFolder}/Collections"
 }
